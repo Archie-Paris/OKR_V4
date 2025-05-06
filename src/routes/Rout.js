@@ -7,7 +7,7 @@ const{
     createauto,
     updateId,
     deleteAuto,
-} = require ('../src/controller/control');
+} = require ('../controller/control');
 
 router.get('/', getAllData);
 
@@ -17,7 +17,7 @@ router.post('/', createauto);
 
 router.put('/:id', updateId);
 
-// router.patch('/:id', );
+
 
 router.delete('/:id', deleteAuto);
 
